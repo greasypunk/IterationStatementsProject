@@ -7,10 +7,21 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
+            // Exercise 1 - write the for loop 15 times.
+            Console.WriteLine("Exercise 1:\n");
+            for (int j = 0; j < 15; j++) {
+                for (int i = 0; i < 5; i++)
+                    Console.WriteLine($"{i}"); }
+
+
+            // Exercise 2 - fork the project 
+            Console.WriteLine("Exercise 2:\n");
+
+
                                                     //TODO - Read each comment and complete its instruction
                                                     // like the example below
                                                     //Create a List called "numbers" - DONE!
-                var numbers = new List<int>();
+            var numbers = new List<int>();
 
                                                     //-----START HERE------------------------------------------
                                                     //Create a variable of type int and name it num
